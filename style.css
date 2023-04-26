@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    min-height:100vh;
+    width: 100%;
+    background-image: url("../Group project/Images/Moi-University.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image:repeating-linear-gradient()
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:100px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li a{
+    color:blue;
+    text-decoration:none;
+    font-size: 15px;
+}
+.nav-links ul li{
+    display:inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration:none;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: rgb(26, 163, 49);
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    padding: 100px;
+    width:90%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%-50%);    
+}
+.text-box h1{
+    font-size: 100px;
+}
+.d{
+    border-radius: 10px;
+    background-color: bisque;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+/*-----find-----*/
+.find{
+    width:60%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;;
+}
+.h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.ser{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.edit{
+    flex-basis: 31%;
+    background:rgb(235, 36, 36);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:border-box;
+    text-align: left;
+    transition: 0.5s;
+}
+.edit:hover{
+    background-color: rgb(100, 237, 134);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.h2{
+    text-align: center;
+    font-size: 50px;
+}
+.f{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.form{
+    flex-basis: 31%;
+    background-image: url("../Group project/Images/documents-and-hand-with-pen-signs-documents-treaty-signing-concept.jpg");
+    margin-bottom: 1%;
+    padding: 20px 50px;
+    text-align:left;
+    justify-content: left;
+    width: 30%;
+    margin:auto ;
+}
